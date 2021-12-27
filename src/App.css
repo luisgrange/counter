@@ -58,14 +58,19 @@ body{
     align-items: center;
     height: 80vh;
   }
-  .container, .circle{
+  .container{
     height: 100%;
     width: 100%;
+    justify-content: center;
   }
 
+  .circle{
+    height: 100%;
+    width: 200px;
+  }
   
   .btn{
-    width: 90%;
+    width: 100%;
     font-size: 1em;
   }
 }
