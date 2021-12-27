@@ -4,7 +4,7 @@ export  function Count(){
     const [count, setCount] = useState(0);
 
     return(
-        <div>
+        <div className='container'>
             <div className='circle'>
                 <p>{count}</p>
             </div>

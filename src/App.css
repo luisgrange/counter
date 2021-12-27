@@ -9,11 +9,46 @@ body{
   margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #f07167;
 }
-
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+}
 .circle{
-  border: 1px solid #fdfcdc;
+  border: 3px solid #fdfcdc;
   border-radius: 100%;
   padding: 4rem;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle p{
+  font-size: 3em;
+  color: #fdfcdc;
+}
+
+.btn{
+  color: #fdfcdc;
+  background-color: #0081a7;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 3em;
+  transition: all .3s ease-in-out;
+}
+
+.btn:hover{
+  background-color: #00afb9;
+  color: #fed9b7;
 }
